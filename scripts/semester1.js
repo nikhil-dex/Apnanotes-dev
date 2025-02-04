@@ -14,6 +14,7 @@ const subjects = [
     { href: "/notes/CSE/subjects1/WP.html", name: "Workshop Practice" }
 ];
 
+
 const subjectsContainer = document.getElementById('subjects1');
 
 const createSubjectDiv = (subject) => {
