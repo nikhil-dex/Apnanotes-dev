@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Noyau Info Form2</title>
+    <link rel="stylesheet" href="/styles/style2.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+               
+            </div>
+            <div class="namehead">
+                <h1>connexion</h1>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <form id="multiStepForm" class="form2 form3" action="submit.php" method="POST">
+                <!-- Step 1 -->
+                <div class="step active">
+                    <div class="email">
+                        <input type="hidden" id="email" name="email">
+                    </div>
+                    <div class="username">
+                        <label class="profiletag" for="username">Username:</label>
+                        <input class="account" type="text" id="username" name="username" placeholder="Enter your username" required>
+                    </div>
+                    <br>
+                    <div class="name">
+                        <label class="profiletag" for="name">Name:</label>
+                        <input class="account" type="text" id="name" name="name" placeholder="Enter your name" required>
+                    </div>
+                    <br>
+                    <button type="button" class="form2btn" onclick="nextStep()">Next</button>
+                </div>
+                
+                <!-- Step 2 -->
+                <div class="step">
+                    <div class="college">
+                        <label class="contacttag" for="college">College:</label>
+                        <input class="usercontact" type="text" id="college" name="college" placeholder="msit/mait" required>
+                    </div>
+                    <br>
+                    <div class="course">
+                        <label class="contacttag" for="course">Course:</label>
+                        <input class="usercontact" type="text" id="course" name="course" placeholder="BTech/BCA" required>
+                    </div>
+                    <div class="branch">
+                        <label class="contacttag" for="branch">Branch:</label>
+                        <input class="usercontact" type="text" id="branch" name="branch" placeholder="CSE/EEE" required> 
+                    </div>
+                    <div class="year">
+                        <label class="contacttag" for="year">Year:</label>
+                        <input class="usercontact" type="text" id="year" name="year" placeholder="3rd" required> 
+                    </div>
+                    <br>
+                    <button type="button" class="form3btn" onclick="previousStep()">Previous</button>
+                    <button type="submit" class="form3btn">Submit</button>
+                </div>
+            </form>
+        </div>
+        <div class="context2">
+            <p class="para2">Please check all information before you save it.</p>
+        </div>
+    </main>
+    <script>
+        // Function to get URL query parameters
+        function getQueryParam(param) {
+            const urlParams = new URLSearchParams(window.location.search);
+            return urlParams.get(param);
+        }
+    
+        // Get the email from the URL
+        const email = getQueryParam('email');
+    
+        // Populate the input field
+        if (email) {
+            document.getElementById('email').value = email;
+        }
+    </script>
+    <script src="/script1.js"></script>
+</body>
+</html>

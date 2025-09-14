@@ -1,0 +1,11 @@
+
+arrays 1:https://drive.google.com/open?id=1ihEStO6rsZ4PPAzUg2TH6dzlwsvzy9Bj&usp=drive_fs,
+arrays 2:https://drive.google.com/open?id=1sflG4YRDYfoMZTCaZ7Rt-cE65nxRRMGr&usp=drive_fs,
+arrays 3:https://drive.google.com/open?id=1qmuQrfng_8dKfaENYGYPs-GX6CbYbLdK&usp=drive_fs,
+arrays 4:https://drive.google.com/open?id=1SIc6gSh1WClEB06GA512L0kKeLAYWK_l&usp=drive_fs,
+dynamic memory allocation:https://drive.google.com/open?id=1mhVxll3i1PK9DlCrtMtrllau4qKtSRJO&usp=drive_fs,
+functions:https://drive.google.com/open?id=1QDVrWumiBW-OTYuHsvgYI0aTxyCXYhTg&usp=drive_fs,
+pointers 1:https://drive.google.com/open?id=1EI6HE6LEySPeyDznekcugaKGqWRRLAYG&usp=drive_fs,
+pointers 2:https://drive.google.com/open?id=1334iYAEdSeY57jvRZToDyQyU702uaDqe&usp=drive_fs,
+preprocessor directives:https://drive.google.com/open?id=17chAfMP2F9ynksiVe0mkSvv_vwf0990g&usp=drive_fs,
+storage classes:https://drive.google.com/open?id=1aX2Y9U23po1lo5RBvFWOpSK7sLRfLvYl&usp=drive_fs

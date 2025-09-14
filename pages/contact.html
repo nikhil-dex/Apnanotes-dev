@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+
+<body>
+    <main class="contact-page">
+        <div class="nav-buttons">
+            <button class="btn btn-outline-light" onclick="history.back()">
+                <i class="fas fa-arrow-left me-2"></i>Go back
+            </button>
+            <button class="btn btn-outline-light float-end" onclick="history.forward()">
+                Go forward<i class="fas fa-arrow-right ms-2"></i>
+            </button>
+        </div>
+        
+        <h1 class="contact-title text-center">Contact Us</h1>
+        
+        <div class="container-fluid">
+            <div class="row justify-content-center">
+                <div class="col-lg-6 col-md-8">
+                    <div class="contact-card">
+                        <div class="contact-image-container">
+                            <div id="contactimg" class="contact-image">
+                                <div class="contact-overlay">
+                                    <h3 class="text-white mb-3">Get in Touch</h3>
+                                    <p class="text-white-50">We're here to help with your academic needs!</p>
+                                    <div class="contact-icons">
+                                        <a href="mailto:info@apnanotes.xyz" class="contact-icon">
+                                            <i class="fas fa-envelope"></i>
+                                        </a>
+                                        <a href="https://wa.me/?text=Check%20out%20Apna%20Notes" class="contact-icon">
+                                            <i class="fab fa-whatsapp"></i>
+                                        </a>
+                                        <a href="https://www.instagram.com/noyau_dev" class="contact-icon">
+                                            <i class="fab fa-instagram"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-form-container">
+                            <h3 class="form-title text-center mb-4">Send us a Message</h3>
+                            
+                            <form action="/action.php" method="POST" class="contact-form">
+                                <div class="form-group">
+                                    <label class="form-label" for="name">
+                                        <i class="fas fa-user me-2"></i>Name
+                                    </label>
+                                    <input class="form-control" type="text" id="name" name="name" required 
+                                           placeholder="Enter your full name">
+                                </div>
+                                
+                                <div class="form-group">
+                                    <label class="form-label" for="email">
+                                        <i class="fas fa-envelope me-2"></i>Email
+                                    </label>
+                                    <input class="form-control" type="email" id="email" name="email" required 
+                                           placeholder="Enter your email address">
+                                </div>
+                                
+                                <div class="form-group">
+                                    <label class="form-label" for="contact">
+                                        <i class="fab fa-whatsapp me-2"></i>WhatsApp Contact Number
+                                    </label>
+                                    <input class="form-control" type="tel" id="contact" name="contact" required 
+                                           placeholder="Enter your WhatsApp number">
+                                </div>
+                                
+                                <div class="form-group">
+                                    <label class="form-label" for="message">
+                                        <i class="fas fa-comment me-2"></i>Message
+                                    </label>
+                                    <textarea class="form-control" id="message" name="message" rows="5" required 
+                                              placeholder="Tell us how we can help you..."></textarea>
+                                </div>
+                                
+                                <div class="text-center">
+                                    <button class="btn btn-primary btn-lg" type="submit">
+                                        <i class="fas fa-paper-plane me-2"></i>Send Message
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="contact-note">
+            <div class="container">
+                <div class="alert alert-info">
+                    <div class="d-flex align-items-center">
+                        <i class="fas fa-info-circle fa-2x me-3 text-primary"></i>
+                        <div>
+                            <h5 class="mb-1">24/7 Support Available</h5>
+                            <p class="mb-0">Contact us any hour for content-related queries, errors, or additional questions. We're committed to helping you succeed!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <style>
+        .contact-page {
+            min-height: 100vh;
+            padding: 2rem 0;
+        }
+        
+        .nav-buttons {
+            position: sticky;
+            top: 80px;
+            z-index: 100;
+            margin-bottom: 2rem;
+            backdrop-filter: blur(10px);
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 12px;
+            padding: 1rem;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+        
+        .contact-title {
+            background: linear-gradient(135deg, #f8f9fa, #dc3545);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            text-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+            font-size: 3.5rem;
+            font-weight: 700;
+            margin: 2rem 0;
+            position: relative;
+        }
+        
+        .contact-title::after {
+            content: '';
+            position: absolute;
+            bottom: -10px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 100px;
+            height: 4px;
+            background: linear-gradient(135deg, #dc3545, #0d6efd);
+            border-radius: 2px;
+        }
+        
+        .contact-card {
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.2);
+            backdrop-filter: blur(20px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+        
+        .contact-image-container {
+            position: relative;
+            height: 300px;
+            overflow: hidden;
+        }
+        
+        .contact-image {
+            height: 100%;
+            background: url("https://cdn.dribbble.com/users/427857/screenshots/5027766/media/5f414248647d7dd812586f0f207dc7b8.gif?resize=400x0") no-repeat center;
+            background-size: cover;
+            position: relative;
+        }
+        
+        .contact-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: linear-gradient(135deg, rgba(111, 66, 193, 0.8), rgba(13, 110, 253, 0.8));
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 2rem;
+        }
+        
+        .contact-icons {
+            display: flex;
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+        
+        .contact-icon {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 50px;
+            height: 50px;
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 50%;
+            color: white;
+            text-decoration: none;
+            font-size: 1.5rem;
+            transition: all 0.3s ease;
+            backdrop-filter: blur(10px);
+        }
+        
+        .contact-icon:hover {
+            background: rgba(255, 255, 255, 0.3);
+            transform: translateY(-3px) scale(1.1);
+            color: white;
+        }
+        
+        .contact-form-container {
+            padding: 3rem;
+        }
+        
+        .form-title {
+            color: #495057;
+            font-weight: 600;
+            margin-bottom: 2rem;
+        }
+        
+        .form-group {
+            margin-bottom: 1.5rem;
+        }
+        
+        .form-label {
+            font-weight: 600;
+            color: #495057;
+            margin-bottom: 0.5rem;
+            display: block;
+        }
+        
+        .form-control {
+            border: 2px solid #e9ecef;
+            border-radius: 10px;
+            padding: 12px 16px;
+            font-size: 1rem;
+            transition: all 0.3s ease;
+            background: rgba(255, 255, 255, 0.9);
+        }
+        
+        .form-control:focus {
+            border-color: #dc3545;
+            box-shadow: 0 0 0 0.2rem rgba(220, 53, 69, 0.25);
+            background: white;
+        }
+        
+        .form-control::placeholder {
+            color: #adb5bd;
+        }
+        
+        .btn-primary {
+            background: linear-gradient(135deg, #dc3545, #c82333);
+            border: none;
+            border-radius: 10px;
+            padding: 12px 30px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .btn-primary::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+            transition: left 0.5s;
+        }
+        
+        .btn-primary:hover {
+            background: linear-gradient(135deg, #c82333, #bd2130);
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(220, 53, 69, 0.4);
+        }
+        
+        .btn-primary:hover::before {
+            left: 100%;
+        }
+        
+        .contact-note {
+            margin-top: 3rem;
+        }
+        
+        .alert-info {
+            background: linear-gradient(135deg, rgba(13, 202, 240, 0.1), rgba(13, 202, 240, 0.05));
+            border: 1px solid rgba(13, 202, 240, 0.2);
+            border-radius: 15px;
+            padding: 1.5rem;
+        }
+        
+        @media screen and (max-width: 768px) {
+            .contact-title {
+                font-size: 2.5rem;
+            }
+            
+            .contact-form-container {
+                padding: 2rem;
+            }
+            
+            .contact-image-container {
+                height: 250px;
+            }
+            
+            .contact-overlay {
+                padding: 1rem;
+            }
+        }
+    </style>
+    
+    <script src="/scripts/script.js"></script>
+</body>
+</html>

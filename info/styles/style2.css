@@ -1,0 +1,13 @@
+
+  .step {
+    display: none;
+  }
+  .step.active {
+    display: block;
+  }
+  .button {
+    margin-top: 20px;
+  }
+   .otpForm,.verifyForm{
+    display: none;
+  }

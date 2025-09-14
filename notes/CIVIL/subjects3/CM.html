@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+  <body>
+    <main>
+      <aside></aside>
+      <button class="btn btn-outline-light" onclick="history.back()">
+        Go back
+      </button>
+      <button
+        class="btn btn-outline-light float-end"
+        onclick="history.forward()"
+      >
+        Go forward
+      </button>
+
+      <h1 class="m-5 text-center">Computational Methods</h1>
+      <div class="container mt-3">
+        <br />
+        <!-- Nav tabs -->
+        <ul class="nav nav-tabs" role="tablist">
+          <li class="nav-item">
+            <a class="nav-link active" data-bs-toggle="tab" href="#CMSyllabus"
+              >Syllabus</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-bs-toggle="tab" href="#CMNotes">Notes</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-bs-toggle="tab" href="#CMPyqs">PYQS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-bs-toggle="tab" href="#CMLab">Lab</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" data-bs-toggle="tab" href="#CMAkash"
+              >AKASH IPU</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-bs-toggle="tab" href="#CMBooks">Books</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-bs-toggle="tab" href="#CMVideos">Videos</a>
+          </li>
+        </ul>
+
+        <!-- Tab panes -->
+        <div class="tab-content mt-5 mb-5">
+          <div id="CMSyllabus" class="container tab-pane active">
+            <br />
+            <div class="container mt-3">
+              <div id="accordion">
+                <div class="card">
+                  <div class="card-header">
+                    <a
+                      class="btn"
+                      data-bs-toggle="collapse"
+                      href="#collapseOne"
+                    >
+                      UNIT - I
+                    </a>
+                  </div>
+                  <div
+                    id="collapseOne"
+                    class="collapse"
+                    data-bs-parent="#accordion"
+                  >
+                    <div class="card-body">
+                      Review of Taylor Series, Rolle's Theorem and Mean Value
+                      Theorem, Approximations and Errors in numerical
+                      computations, Data representation and computer arithmetic,
+                      Loss of significance in computation, Location of roots of
+                      equation: Bisection method (convergence analysis and
+                      implementation), Newton Method (convergence analysis and
+                      implementation), Secant Method (convergence analysis and
+                      implementation), Unconstrained one variable function
+                      minimization by Fibonacci search, Golden Section Search
+                      and Newton's method, Multivariate function minimization by
+                      the method of steepest descent, Nelder-Mead Algorithm.
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header">
+                    <a
+                      class="collapsed btn"
+                      data-bs-toggle="collapse"
+                      href="#collapseTwo"
+                    >
+                      UNIT - II
+                    </a>
+                  </div>
+                  <div
+                    id="collapseTwo"
+                    class="collapse"
+                    data-bs-parent="#accordion"
+                  >
+                    <div class="card-body">
+                      Interpolation: Assumptions for interpolation, errors in
+                      polynomial interpolation, Finite differences,
+                      Gregory-Newton's Forward Interpolation, Gregory-Newton's
+                      backward Interpolation, Lagrange's Interpolation, Newton's
+                      divided difference interpolation, Numerical Integration:
+                      Definite Integral, Newton-Cote's Quadrature formula,
+                      Trapezoidal Rule, Simpson's one-third rule, Simpson's
+                      three-eight rule, Errors in quadrature formulae, Romberg's
+                      Algorithm, Gaussian Quadrature formula.
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header">
+                    <a
+                      class="collapsed btn"
+                      data-bs-toggle="collapse"
+                      href="#collapseThree"
+                    >
+                      UNIT - III
+                    </a>
+                  </div>
+                  <div
+                    id="collapseThree"
+                    class="collapse"
+                    data-bs-parent="#accordion"
+                  >
+                    <div class="card-body">
+                      System of Linear Algebraic Equations: Existence of
+                      solution, Gauss elimination method and its computational
+                      effort, concept of Pivoting, Gauss Jordan method and its
+                      computational effort, Triangular Matrix factorization
+                      methods: Dolittle algorithm, Crout's Algorithm, Cholesky
+                      method, Eigen value problem: Power method, Approximation
+                      by Spline Function: First-Degree and second degree
+                      Splines, Natural Cubic Splines, B Splines, Interpolation
+                      and Approximation
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header">
+                    <a
+                      class="collapsed btn"
+                      data-bs-toggle="collapse"
+                      href="#collapseFour"
+                    >
+                      UNIT - IV
+                    </a>
+                  </div>
+                  <div
+                    id="collapseFour"
+                    class="collapse"
+                    data-bs-parent="#accordion"
+                  >
+                    <div class="card-body">
+                      Numerical solution of ordinary Differential Equations:
+                      Picard's method, Taylor series method, Euler's and
+                      Runge-Kutta's methods, Predictor-corrector methods:
+                      Euler's method, Adams-Bashforth method, Milne's method,
+                      Numerical Solution of Partial Differential equations:
+                      Parabolic, Hyperbolic, and elliptic equations,
+                      Implementation to be done in C/C++
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="CMNotes" class="container tab-pane fade">
+            <br />
+            <div class="container d-flex justify-content-center">
+              <div class="container mt-3">
+                <ol class="list-group list-group-numbered list-group">
+                  <li class="list-group-item bg-danger mb-3">
+                    <a
+                      href="https://drive.google.com/file/d/1-jpgXDUHCEIl68zByhLj6hXlS1UIWOy1/view?usp=drive_link"
+                      class="text-decoration-none text-light"
+                      target="_blank"
+                      >CM CheatSheet Updated.pdf</a
+                    >
+                  </li>
+                  <li class="list-group-item bg-danger mb-3">
+                    <a
+                      href="https://drive.google.com/file/d/1ZfrUqpGns0K9gb4ihaPp5NUtNbDOhkAb/view?usp=drive_link"
+                      class="text-decoration-none text-light"
+                      target="_blank"
+                      >Unit-1.pdf</a
+                    >
+                  </li>
+                  <li class="list-group-item bg-danger mb-3">
+                    <a
+                      href="https://drive.google.com/file/d/1guFscCNa0cUoHM2afqbXT6JrwLLQxpl5/view?usp=drive_link"
+                      class="text-decoration-none text-light"
+                      target="_blank"
+                      >Unit-2 (Part-1).pdf</a
+                    >
+                  </li>
+                  <li class="list-group-item bg-danger mb-3">
+                    <a
+                      href="https://drive.google.com/file/d/1Dp5xPRYzjZdOyNXrOrA7Z7zf4Uqc2hXp/view?usp=drive_link"
+                      class="text-decoration-none text-light"
+                      target="_blank"
+                      >Unit-2 (Part-2).pdf</a
+                    >
+                  </li>
+                  <li class="list-group-item bg-danger mb-3">
+                    <a
+                      href="https://drive.google.com/file/d/1l7VulMAL8WONrLTMQWcdEijuTLFfRMsD/view?usp=drive_link"
+                      class="text-decoration-none text-light"
+                      target="_blank"
+                      >Unit-3.pdf</a
+                    >
+                  </li>
+                  <li class="list-group-item bg-danger mb-3">
+                    <a
+                      href="https://drive.google.com/file/d/1rmHg967WXiAPD7-pfdpxiFXuA-GkUHe9/view?usp=drive_link"
+                      class="text-decoration-none text-light"
+                      target="_blank"
+                      >Unit-4.pdf</a
+                    >
+                  </li>
+                  <li class="list-group-item bg-danger mb-3">
+                    <a
+                      href="https://drive.google.com/file/d/1VGVfMC-JlYAYAeUXNoNDFSlNE47BAb2J/view?usp=drive_link"
+                      class="text-decoration-none text-light"
+                      target="_blank"
+                      >Bisection, Newton and Secant method.pdf</a
+                    >
+                  </li>
+                  <li class="list-group-item bg-danger mb-3">
+                    <a
+                      href="https://drive.google.com/file/d/1C0JOvw0OARZEP2V1_R1FtDB6evuwnv30/view?usp=drive_link"
+                      class="text-decoration-none text-light"
+                      target="_blank"
+                      >CM Unit 1 - Complete.pdf</a
+                    >
+                  </li>
+                  <li class="list-group-item bg-danger mb-3">
+                    <a
+                      href="https://drive.google.com/file/d/1J5MI_5qWdknIxo1hRzrJa7SkvlLKnTBo/view?usp=drive_link"
+                      class="text-decoration-none text-light"
+                      target="_blank"
+                      >CM Unit 2 - 0.pdf</a
+                    >
+                  </li>
+                  <li class="list-group-item bg-danger mb-3">
+                    <a
+                      href="https://drive.google.com/file/d/17yQNQBrtQU36FjOV9W7lk77BBKhukaM1/view?usp=drive_link"
+                      class="text-decoration-none text-light"
+                      target="_blank"
+                      >CM Unit 3 - 0.pdf</a
+                    >
+                  </li>
+                  <li class="list-group-item bg-danger mb-3">
+                    <a
+                      href="https://drive.google.com/file/d/1DrXvq9rKXNIObuadeMr1bRHo-fZYE2Dx/view?usp=drive_link"
+                      class="text-decoration-none text-light"
+                      target="_blank"
+                      >CM Unit 3 - 1.pdf</a
+                    >
+                  </li>
+                  <li class="list-group-item bg-danger mb-3">
+                    <a
+                      href="https://drive.google.com/file/d/173rGqpzkx8Jj9zgIP2-rcc1TKYbeXDiN/view?usp=drive_link"
+                      class="text-decoration-none text-light"
+                      target="_blank"
+                      >CM Unit 3, 4.pdf</a
+                    >
+                  </li>
+                  <li class="list-group-item bg-danger mb-3">
+                    <a
+                      href="https://drive.google.com/file/d/1GtRN12F_OSiliKvjSsgnjI51Bdre7VoJ/view?usp=drive_link"
+                      class="text-decoration-none text-light"
+                      target="_blank"
+                      >CM Unit 4 - 0.pdf</a
+                    >
+                  </li>
+                  <li class="list-group-item bg-danger mb-3">
+                    <a
+                      href="https://drive.google.com/file/d/13JGkzEcJren3xTwiayzJYtPvRn5GcvqC/view?usp=drive_link"
+                      class="text-decoration-none text-light"
+                      target="_blank"
+                      >CM Unit 4 - 1.pdf</a
+                    >
+                  </li>
+                  <li class="list-group-item bg-danger mb-3">
+                    <a
+                      href="https://drive.google.com/file/d/1rDNTz_IHbd5ipWxA5uIE5WgFUfn71zen/view?usp=drive_link"
+                      class="text-decoration-none text-light"
+                      target="_blank"
+                      >CM Unit 4 - 2.pdf</a
+                    >
+                  </li>
+                  <li class="list-group-item bg-danger mb-3">
+                    <a
+                      href="https://drive.google.com/file/d/1a_5vLVMGSD1x7VqTFQh2O4OuxAnfKYCk/view?usp=drive_link"
+                      class="text-decoration-none text-light"
+                      target="_blank"
+                      >Eigen value and eigen vector by power method.pdf</a
+                    >
+                  </li>
+                  <li class="list-group-item bg-danger mb-3">
+                    <a
+                      href="https://drive.google.com/file/d/1bT0RJ8rNKV4Sf6sqqXCkGhgg-KxP83jK/view?usp=drive_link"
+                      class="text-decoration-none text-light"
+                      target="_blank"
+                      >Errors and other.pdf</a
+                    >
+                  </li>
+                  <li class="list-group-item bg-danger mb-3">
+                    <a
+                      href="https://drive.google.com/file/d/1SBLv6g27W4uEYMchOtI1R1qhcwOYK77R/view?usp=drive_link"
+                      class="text-decoration-none text-light"
+                      target="_blank"
+                      >Fibonacci and other methods.pdf</a
+                    >
+                  </li>
+                  <li class="list-group-item bg-danger mb-3">
+                    <a
+                      href="https://drive.google.com/file/d/1S3mlWk_vxKPEId6nvomECfSNzhdB7yFt/view?usp=drive_link"
+                      class="text-decoration-none text-light"
+                      target="_blank"
+                      >Finite difference Operator Factorial notation and missing
+                      term.pdf</a
+                    >
+                  </li>
+                  <li class="list-group-item bg-danger mb-3">
+                    <a
+                      href="https://drive.google.com/file/d/1WMsYIEshbqN5P0SRfI-2JDX_jOu7XLur/view?usp=drive_link"
+                      class="text-decoration-none text-light"
+                      target="_blank"
+                      >Gauss Jordan, Dolittle Unit 3.pdf</a
+                    >
+                  </li>
+                  <li class="list-group-item bg-danger mb-3">
+                    <a
+                      href="https://drive.google.com/file/d/1sB7Y15dcUH1odRKVRIZtexRPJrDneiPW/view?usp=drive_link"
+                      class="text-decoration-none text-light"
+                      target="_blank"
+                      >Newton forward and backward interpolation.pdf</a
+                    >
+                  </li>
+                  <li class="list-group-item bg-danger mb-3">
+                    <a
+                      href="https://drive.google.com/file/d/1NSed_e_Ea9pBtWdbzKqxG-lAinVxwzBL/view?usp=drive_link"
+                      class="text-decoration-none text-light"
+                      target="_blank"
+                      >Numerical solution of PD.pdf</a
+                    >
+                  </li>
+                  <li class="list-group-item bg-danger mb-3">
+                    <a
+                      href="https://drive.google.com/file/d/1jTuT0i5bZYdBas1TLdrX8N2amBslyd-q/view?usp=drive_link"
+                      class="text-decoration-none text-light"
+                      target="_blank"
+                      >Simpson one third and Simpsons three eight rule.pdf</a
+                    >
+                  </li>
+                  <li class="list-group-item bg-danger mb-3">
+                    <a
+                      href="https://drive.google.com/file/d/1cu2ZDcl0_dEVktqUtFD2tpTEQ8YARoVV/view?usp=drive_link"
+                      class="text-decoration-none text-light"
+                      target="_blank"
+                      >Spline.pdf</a
+                    >
+                  </li>
+                  <li class="list-group-item bg-danger mb-3">
+                    <a
+                      href="https://drive.google.com/file/d/1QvDgL24bIkn1P42q9_5ib5aMeBAnvN8P/view?usp=drive_link"
+                      class="text-decoration-none text-light"
+                      target="_blank"
+                      >Trapezoidal rule.pdf</a
+                    >
+                  </li>
+                </ol>
+              </div>
+            </div>
+          </div>
+          <div id="CMPyqs" class="container tab-pane fade">
+            <br />
+            <div class="container d-flex justify-content-center">
+              <div class="container mt-3">
+                <ol class="list-group list-group-numbered">
+                  <li class="list-group-item bg-danger mb-3">
+                    <a
+                      href="https://drive.google.com/file/d/1m6loUTf8KisdvW3mthzmGhozmc2Uqn9T/view?usp=drive_link"
+                      class="text-decoration-none text-light"
+                      target="_blank"
+                    >
+                      CM End Term 2024.pdf
+                    </a>
+                  </li>
+                  <li class="list-group-item bg-danger mb-3">
+                    <a
+                      href="https://drive.google.com/file/d/1sfrEtfIYsx0se0jknxcXiXWF1fDAWwtf/view?usp=drive_link"
+                      class="text-decoration-none text-light"
+                      target="_blank"
+                    >
+                      CM mid sem 2.pdf
+                    </a>
+                  </li>
+                  <li class="list-group-item bg-danger mb-3">
+                    <a
+                      href="https://drive.google.com/file/d/1IGvzTBDerSTxXhH3RWL50Tqzf2gjOtQd/view?usp=drive_link"
+                      class="text-decoration-none text-light"
+                      target="_blank"
+                    >
+                      CM unit 1 pyqs with answer.pdf
+                    </a>
+                  </li>
+                  <li class="list-group-item bg-danger mb-3">
+                    <a
+                      href="https://drive.google.com/file/d/1hWy2PYQoW5IORKsH2P8TG8qqTP1XJi3w/view?usp=drive_link"
+                      class="text-decoration-none text-light"
+                      target="_blank"
+                    >
+                      End Term Paper 2023.pdf
+                    </a>
+                  </li>
+                  <li class="list-group-item bg-danger mb-3">
+                    <a
+                      href="https://drive.google.com/file/d/1q2ANZkrRvf1JJzpWW02gEOWQnmQwewWR/view?usp=drive_link"
+                      class="text-decoration-none text-light"
+                      target="_blank"
+                    >
+                      Mid term QP 2022.pdf
+                    </a>
+                  </li>
+                  <li class="list-group-item bg-danger mb-3">
+                    <a
+                      href="https://drive.google.com/file/d/1zKsQNzMBlNyitvY8yzD0hLYN8fmDu8uy/view?usp=drive_link"
+                      class="text-decoration-none text-light"
+                      target="_blank"
+                    >
+                      Mid term QP 2023.jpeg
+                    </a>
+                  </li>
+                  <li class="list-group-item bg-danger mb-3">
+                    <a
+                      href="https://drive.google.com/file/d/1pFye4xShzCHAiaY6wCYOI3hNj1Zlpif8/view?usp=drive_link"
+                      class="text-decoration-none text-light"
+                      target="_blank"
+                    >
+                      Midterm Answersheet Nov 2023.pdf
+                    </a>
+                  </li>
+                </ol>
+              </div>
+            </div>
+          </div>
+          <div id="CMLab" class="container tab-pane fade"><br>
+            <div class="container d-flex justify-content-center">
+                <div class="container mt-3">                  
+                    <ol class="list-group list-group-numbered">
+                      
+                        <li class="list-group-item bg-danger mb-3">
+                            <a href="https://drive.google.com/file/d/1lc6sOcylA9QDpipd699tWVUDpz8zTXeh/view?usp=drive_link" class="text-decoration-none text-light" target="_blank">CMpractical01.pdf</a>
+                          </li>
+                          <li class="list-group-item bg-danger mb-3">
+                            <a href="https://drive.google.com/file/d/1ND8Zlu2lcheO7trfSy_faWSF1glamRhL/view?usp=drive_link" class="text-decoration-none text-light" target="_blank">CMpractical2.pdf</a>
+                          </li>
+                          <li class="list-group-item bg-danger mb-3">
+                            <a href="https://drive.google.com/file/d/16jn-_oeZX98XzRkoxRXi27jkufRJY2w6/view?usp=drive_link" class="text-decoration-none text-light" target="_blank">CMpractical3.pdf</a>
+                          </li>
+                          <li class="list-group-item bg-danger mb-3">
+                            <a href="https://drive.google.com/file/d/1CvfGtYbrU7s2sKyyAWIhIw56IMEyi2rZ/view?usp=drive_link" class="text-decoration-none text-light" target="_blank">CMpractical4.pdf</a>
+                          </li>
+                          <li class="list-group-item bg-danger mb-3">
+                            <a href="https://drive.google.com/file/d/14Otc_51sAfdAKwJNbFt5DKhGV_ekwes4/view?usp=drive_link" class="text-decoration-none text-light" target="_blank">CMpractical5.pdf</a>
+                          </li>
+                          <li class="list-group-item bg-danger mb-3">
+                            <a href="https://drive.google.com/file/d/12dAqpAvvd54xkb4Ltp2ZgaLRTQ0Xlotu/view?usp=drive_link" class="text-decoration-none text-light" target="_blank">CMpractical6.pdf</a>
+                          </li>
+                          <li class="list-group-item bg-danger mb-3">
+                            <a href="https://drive.google.com/file/d/1O4J_hy9E4D2E0gIY2l7_ZAYjusXOFWFf/view?usp=drive_link" class="text-decoration-none text-light" target="_blank">CMpractical7.pdf</a>
+                          </li>
+                          <li class="list-group-item bg-danger mb-3">
+                            <a href="https://drive.google.com/file/d/1Kxs81RtNF9K5WCqySrF-9ghqgn1AozRt/view?usp=drive_link" class="text-decoration-none text-light" target="_blank">CMpractical8.pdf</a>
+                          </li>
+                          <li class="list-group-item bg-danger mb-3">
+                            <a href="https://drive.google.com/file/d/1PbkvAKxcr0VooSDm2vTUxmDuibg1MZrg/view?usp=drive_link" class="text-decoration-none text-light" target="_blank">CMpractical9.pdf</a>
+                          </li>
+                          
+                       
+                    </ol>
+
+                </div>
+          </div>
+          </div>
+          <div id="CMAkash" class="container tab-pane fade">
+            <br />
+            <div class="container d-flex justify-content-center flex-column">
+              <h3>IPU Btech Akash Books</h3>
+
+              <iframe
+                id="iframe"
+                src="https://drive.google.com/file/d/1N7fWWZ_eJUdA1J1Z23_Q6uj-vjyXcYXR/preview?usp=drive_link"
+                allow="autoplay"
+              ></iframe>
+            </div>
+          </div>
+          <div id="CMBooks" class="container tab-pane fade">
+            <br />
+            <div class="container d-flex justify-content-center">
+              <div class="container mt-3">
+                <h2>Books pdf available</h2>
+                <ol class="list-group list-group-numbered">
+                  <li class="list-group-item bg-danger mb-3">
+                    <a
+                      href="https://drive.google.com/file/d/1Kzzk0lZcRRsGNh_9_srpV1-FaG6pEnXB/view?usp=drive_link"
+                      class="text-decoration-none text-light"
+                      target="_blank"
+                    >
+                      CM book by SRK and RK jain.pdf
+                    </a>
+                  </li>
+                  <li class="list-group-item bg-danger mb-3">
+                    <a
+                      href="https://drive.google.com/file/d/1WlaaWn9xPx8EnudUrWGlMr1KG0UMcrKd/view?usp=drive_link"
+                      class="text-decoration-none text-light"
+                      target="_blank"
+                    >
+                      CM book.pdf
+                    </a>
+                  </li>
+                </ol>
+              </div>
+            </div>
+          </div>
+          <div id="CMVideos" class="container tab-pane fade">
+            <br>
+            <div class="container d-flex justify-content-center">
+              <div class="container mt-3 d-flex flex-row flex-wrap gap-2">
+                <div class="vid-list">
+                    <iframe class ="thumbnail" width="300" height="200" src="https://www.youtube.com/embed/hoJw1d-AMjw?list=PLhSp9OSVmeyJdYAHtIbDlkBLG0G1wuosk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
+                  <div class="flex-div">
+                    <div class="vid-info">
+                      <a
+                        href="https://youtu.be/hoJw1d-AMjw?list=PLhSp9OSVmeyJdYAHtIbDlkBLG0G1wuosk"
+                        >NUMERICAL ANALYSIS (Complete Playlist)</a
+                      >
+                      <p>MKS TUTORIALS by Manoj Sir</p>
+                    </div>
+                    </div>
+                    </div>
+                    <div class="vid-list">
+                    <iframe class="thumbnail" width="300" height="200" src="https://www.youtube.com/embed/AMr5etyUEL8?list=PLmTfHZlm2zKgM2EeTSdXs5XcfP79cj6z9" title="1. Gauss Elimination Method | Working Rule &amp; Problem#1 | Complete Concept | Numerical Methods" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <div class="flex-div">
+                        <div class="vid-info">
+                          <a
+                            href="https://youtu.be/AMr5etyUEL8?list=PLmTfHZlm2zKgM2EeTSdXs5XcfP79cj6z9"
+                            >CM Unit 3 - IPU</a
+                          >
+                          <p>Apna-Notes</p>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="vid-list">
+                    <iframe class="thumbnail" width="300" height="200" src="https://www.youtube.com/embed/lhZYos3lL1E?list=PLmTfHZlm2zKjmlW7xZDPyrWYpbXt4E-Cn" title="1. Picard&#39;s Method | Concept &amp; Problem#1 | Numerical Solution of Ordinary Differential Equations" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <div class="flex-div">
+                        <div class="vid-info">
+                              <a
+                                href="https://youtu.be/lhZYos3lL1E?list=PLmTfHZlm2zKjmlW7xZDPyrWYpbXt4E-Cn
+                                "
+                                >CM Unit 4 - IPU</a
+                              >
+                              <p>Apna-Notes</p>
+        
+                        </div>
+                    </div>
+                    </div>
+                    <div class="vid-list">
+                    <iframe class="thumbnail" width="300" height="200" src="https://www.youtube.com/embed/Y6sx1u5cDmo?list=PLEHGYFbPuuMGfyIXGx8V-Xhi0HRSjT8Ak" title="Introduction to Bisection Method|Numerical Methods|BCA|Dream Maths" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <div class="flex-div">
+                        <div class="vid-info">
+                              <a
+                                href="https://youtu.be/Y6sx1u5cDmo?list=PLEHGYFbPuuMGfyIXGx8V-Xhi0HRSjT8Ak"
+                                >Numerical Methods</a
+                              >
+                              <p>Dream Maths</p>
+        
+                        </div>
+                    </div>
+                    </div>
+                    <div class="vid-list">
+                    <iframe class="thumbnail" width="300" height="200" src="https://www.youtube.com/embed/rWyTk9eubKM?list=PLU6SqdYcYsfLrTna7UuaVfGZYkNo0cpVC" title="Overview of Numerical Analysis | Interpolation | Integration | Differentiation" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <div class="flex-div">
+                        <div class="vid-info">
+                              <a
+                                href="https://youtu.be/rWyTk9eubKM?list=PLU6SqdYcYsfLrTna7UuaVfGZYkNo0cpVC"
+                                >Numerical Analysis</a
+                              >
+                              <p>Dr.Gajendra Purohit</p>
+        
+                        </div>
+                    </div>
+                    </div>
+                    <div class="vid-list">
+                    <iframe class="thumbnail" width="290" height="200" src="https://www.youtube.com/embed/Xzkl2jZtuys?list=PLdM-WZokR4tZb3xr9l1hBdzd-7m5mgHh_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <div class="flex-div">
+                        <div class="vid-info">
+                              <a
+                                href="https://youtu.be/Xzkl2jZtuys?list=PLdM-WZokR4tZb3xr9l1hBdzd-7m5mgHh_"
+                                >Numerical Methods</a
+                              >
+                              <p>Bhagwan Singh Vishwakarma</p>
+                        </div>
+                    </div>
+                    </div>
+                  
+                
+                <br>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script src="/scripts/script.js"></script>
+  </body>
+</html>

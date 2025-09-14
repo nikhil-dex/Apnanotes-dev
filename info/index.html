@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OTP Verification Form</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <h2>OTP Verification Form</h2>
+    <form id="otpForm">
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+        
+        <input type="submit" value="get started">
+    </form>
+
+    <div id="responseMessage" style="margin-top: 20px; color: green;"></div>
+    <div id="errorMessage" style="margin-top: 20px; color: red;"></div>
+
+    <script>
+        // Show the verification form after sending OTP
+        $('#otpForm').on('submit', function(e) {
+            e.preventDefault(); // Prevent default form submission
+
+            // Clear any previous messages
+            $('#responseMessage').html('');
+            $('#errorMessage').html('');
+
+            // Get the email
+            var email = $('#email').val();
+            
+            // Redirect to the second page with email as a query parameter
+            window.location.href = `second.html?email=${encodeURIComponent(email)}`;
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+<body>
+    <main>
+        <section>
+            
+            <div class="container-fluid text-center mt-5 mb-5 text-bg-light">
+                <h1><b>Welcome to Apna-Notes</b></h1>
+            </div>
+            <div class="container-fluid text-center mt-5 mb-5 text-light">
+                <h1 class="text-danger"><b>Get Ipu</b></h1>
+                <h1><b>Notes For</b></h1>
+                <h1 class="text-primary"><b>Free</b></h1>
+              
+                <p class="mt-3 text-secondary text-start">
+                    Support your peers by sharing your meticulously handwritten or scanned notes to aid students from institutions like MSIT, MAIT, USCIT, ADGIPS, USAR and other IPU institutions. 
+                    <a href="/pages/shareyournotes.html">Learn more about how you can contribute</a>.
+                </p>
+                <button data-bs-toggle="collapse" data-bs-target="#demo">see whats new</button>
+                 <div id="demo" class="collapse">
+                    <div class="alert alert-success alert-dismissible">
+                        <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+                        <strong>New</strong> content added btech AC/MP/CS/AP/AM/ES 2024
+                      </div>
+                
+                 
+                 </div>
+                
+            </div>
+        </section>
+        <div class="container-fluid mb-5 p-3 d-flex justify-content-center">
+            <form id="selectionForm" action="/page.html" method="GET">
+                <h2>B.tech</h2>
+                <select id="branchSelect" class="form-select form-select text-bg-light" style="width: 80vw">
+                    <option value="" selected>Select Branch</option>
+                    <option value="CSE">CSE</option>
+                    <option value="IT">IT</option>
+                    <option value="AIDS">AIDS</option>
+                    <option value="AIML">AIML</option>
+                    
+                   
+                </select>
+                <select id="semesterSelect" class="form-select form-select text-bg-light">
+                    <option value="" selected>Select Semester</option>
+                    <option value="Semester-1">Semester-1</option>
+                    <option value="Semester-2">Semester-2</option>
+                    
+                   
+                </select>
+                <button type="button" class="btn btn-danger" onclick="submitFormBtech()">.Get</button>
+                <div class="d-flex justify-content-center float-end">
+                    <span>
+                        <a href="https://www.instagram.com/noyau_dev/?igsh=MWxsZ216Mm0wbGdrZQ%3D%3D&utm_source=qr" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">
+                            <i class="fab fa-instagram" style="font-size: 40px; color: #C13584;"></i>
+                        </a>
+                    </span>
+                    <span><pre>  </pre></span>
+                    <span>
+                        <a href="https://wa.me/?text=Check%20out%20Apna%20Notes%2C%20your%20ultimate%20source%20for%20student%20notes%20and%20resources!%20%F0%9F%93%9A%E2%9C%A8%20Visit%20now%3A%20https%3A%2F%2Fapnanotes.xyz"
+                        class="whatsapp-share" target="_blank">
+                        <img height="40px" src="https://img.icons8.com/color/48/000000/whatsapp--v1.png" alt="Share on WhatsApp"/>
+                      </a>
+                    </span>
+                </div>
+            </form>
+        </div>
+        <div class="container-fluid mb-5 p-3 d-flex justify-content-center">
+            <form id="selectionFormBCA" action="/page.html" method="GET">
+                <h2>BCA</h2>
+        
+                <select id="semesterSelectBca" class="form-select form-select text-bg-light" style="width: 80vw">
+                    <option value="" selected>Select Semester</option>
+                    <option value="Semester-1">Semester-1</option>
+                    <!-- <option value="Semester-2">Semester-2</option> -->
+                    
+                </select>
+                <button type="button" class="btn btn-danger" onclick="submitFormBca()">.Get</button>
+            
+            </form>
+        </div>
+       <div id="about" class="text-center"><a class="text-danger" href="/pages/ipusyllabus.html"><i>SEE THE LATEST IPU SYLLABUS</i></a></div>
+        <article class="container-fluid p-4 mt-5 bg-light rounded">
+            <h1 class="text-primary text-center mb-4" style="font-family: 'Montserrat', sans-serif;">Discover Apna Notes</h1>
+            
+            <p class="lead text-center text-dark mb-5" style="font-family: 'Open Sans', sans-serif;">
+                <strong>Your Gateway to Academic Success</strong>
+            </p>
+        
+            <div class="row">
+                <div class="col-md-6">
+                    <h3 class="text-secondary" style="font-family: 'Montserrat', sans-serif;">About Us</h3>
+                    <p class="text-dark" style="font-family: 'Open Sans', sans-serif;">
+                        Welcome to <strong>Apna Notes</strong> – your ultimate academic companion. Whether you're a fresher finding your footing or a senior gearing up for finals, we've got you covered. Our mission is to empower students with easy access to comprehensive notes that simplify your study sessions.
+                    </p>
+                </div>
+        
+                <div class="col-md-6">
+                    <h3 class="text-secondary" style="font-family: 'Montserrat', sans-serif;">Who We Are</h3>
+                    <p class="text-dark" style="font-family: 'Open Sans', sans-serif;">
+                        I'm Krishna, your guide in this academic journey. While I don’t own the notes on <strong>Apna Notes</strong>, I am passionate about curating top-notch resources from trusted sources to help you excel. Think of Apna Notes as your personal library of high-quality study materials, tailored to your success.
+                    </p>
+                </div>
+            </div>
+        
+            <div class="mt-4">
+                <h4 class="text-center text-primary mb-4" style="font-family: 'Montserrat', sans-serif;">What We Offer</h4>
+                
+                <div class="row">
+                    <div class="col-md-6">
+                        <p class="text-dark" style="font-family: 'Open Sans', sans-serif;">
+                            <strong class="text-secondary">Curated Notes:</strong> We gather the best notes available, ensuring they are detailed, well-organized, and aligned with your academic requirements.
+                        </p>
+                    </div>
+                    <div class="col-md-6">
+                        <p class="text-dark" style="font-family: 'Open Sans', sans-serif;">
+                            <strong class="text-secondary">Diverse Subjects:</strong> Our notes cover a wide array of subjects, making it easier for students across disciplines to find what they need.
+                        </p>
+                    </div>
+                    <div class="col-md-6">
+                        <p class="text-dark" style="font-family: 'Open Sans', sans-serif;">
+                            <strong class="text-secondary">Student-Centric Approach:</strong> Designed with you in mind, our notes focus on clarity, relevance, and simplicity, ensuring your study sessions are as effective as possible.
+                        </p>
+                    </div>
+                    <div class="col-md-6">
+                        <p class="text-dark" style="font-family: 'Open Sans', sans-serif;">
+                            <strong class="text-secondary">Continuous Updates:</strong> We stay up-to-date with educational trends, continuously updating our content to provide you with the most relevant material.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+        <aside>  
+              <ins class="adsbygoogle"
+              style="display:block"
+              data-ad-client="ca-pub-5341243893712251"
+              data-ad-slot="3044787817"
+              data-ad-format="auto"
+              data-full-width-responsive="true"></ins>
+         <script>
+              (adsbygoogle = window.adsbygoogle || []).push({});
+         </script>
+        </aside>
+        
+    </main>
+
+    <script src="scripts/script.js"></script>
+</body>
+</html>
